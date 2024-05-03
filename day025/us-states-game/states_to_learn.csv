@@ -1,36 +1,35 @@
-,state,x,y
-0,Alabama,139,-77
-1,Arizona,-203,-40
-2,Arkansas,57,-53
-3,Colorado,-112,20
-4,Connecticut,297,96
-5,Delaware,275,42
-6,Florida,220,-145
-7,Georgia,182,-75
-8,Idaho,-216,122
-9,Illinois,95,37
-10,Indiana,133,39
-11,Iowa,38,65
-12,Kansas,-17,5
-13,Kentucky,149,1
-14,Louisiana,59,-114
-15,Maine,319,164
-16,Maryland,288,27
-17,Massachusetts,312,112
-18,Michigan,148,101
-19,Minnesota,23,135
-20,Montana,-141,150
-21,Nebraska,-61,66
-22,Nevada,-257,56
-23,New Hampshire,302,127
-24,New Mexico,-128,-43
-25,North Dakota,-44,158
-26,Oregon,-278,138
-27,Pennsylvania,238,72
-28,South Dakota,-44,109
-29,Tennessee,131,-34
-30,Utah,-189,34
-31,Vermont,282,154
-32,Virginia,234,12
-33,West Virginia,200,20
-34,Wisconsin,83,113
+,state
+0,Alabama
+1,Arizona
+2,Arkansas
+3,Colorado
+4,Connecticut
+5,Delaware
+6,Georgia
+7,Idaho
+8,Illinois
+9,Indiana
+10,Iowa
+11,Kansas
+12,Kentucky
+13,Louisiana
+14,Maine
+15,Maryland
+16,Massachusetts
+17,Michigan
+18,Montana
+19,Nebraska
+20,Nevada
+21,New Hampshire
+22,New Mexico
+23,North Carolina
+24,Oregon
+25,Pennsylvania
+26,South Carolina
+27,South Dakota
+28,Tennessee
+29,Utah
+30,Vermont
+31,Virginia
+32,West Virginia
+33,Wisconsin

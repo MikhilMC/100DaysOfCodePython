@@ -42,18 +42,18 @@ while True:
         screen.title(titlestring=f"{len(correct_guesses)}/50 states")
 
 # states_to_learn.csv
-data_dict = {"state": [], "x": [], "y": []}
-for state_name in state_list:
-    if state_name not in correct_guesses:
-        data_dict["state"].append(state_name)
-        state_data = data[data.state == state_name]
-        x_cor = state_data.x.item()
-        y_cor = state_data.y.item()
-        data_dict["x"].append(x_cor)
-        data_dict["y"].append(y_cor)
+data_dict = {"state": [state for state in state_list if state not in correct_guesses]}
+# for state_name in state_list:
+#     if state_name not in correct_guesses:
+#         data_dict["state"].append(state_name)
+
+# state_data = data[data.state == state_name]
+# x_cor = state_data.x.item()
+# y_cor = state_data.y.item()
+# data_dict["x"].append(x_cor)
+# data_dict["y"].append(y_cor)
 
 remaining_states = pandas.DataFrame(data_dict)
 remaining_states.to_csv("states_to_learn.csv")
-
 
 screen.exitonclick()
